@@ -128,10 +128,6 @@ PRODUCT_COPY_FILES += \
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 
-# Device Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.lcd.cabc_mode=1
 
